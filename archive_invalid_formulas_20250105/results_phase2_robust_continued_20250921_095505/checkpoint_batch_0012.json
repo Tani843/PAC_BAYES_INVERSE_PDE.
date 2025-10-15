@@ -1,0 +1,362 @@
+[
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0027179718017578125
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0026950836181640625
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.002977132797241211
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0023272037506103516
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0022559165954589844
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0022618770599365234
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.00457310676574707
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.00439906120300293
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.0040988922119140625
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "'dict' object cannot be interpreted as an integer",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 76, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(n_burn=1000)\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/src/mcmc/adaptive_metropolis_hastings_phase2.py\", line 128, in run_adaptive_length\n    kappa_init = self.posterior.prior.sample(1, seed=self.rng.randint(10000))[0]\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2.py\", line 87, in sample\n    return rng.uniform(self.kappa_min, self.kappa_max, (n_samples, self.m))\n  File \"numpy/random/mtrand.pyx\", line 1158, in numpy.random.mtrand.RandomState.uniform\n  File \"_common.pyx\", line 636, in numpy.random._common.cont\nTypeError: 'dict' object cannot be interpreted as an integer\n",
+    "performance": {
+      "runtime": 0.001600027084350586
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "total_experiments": 3,
+  "start_idx": 50,
+  "end_idx": 53,
+  "batch_size": 3,
+  "timeout_sec": 300,
+  "max_steps_hard": 25000,
+  "start_time": "2025-09-20T21:36:45.421047",
+  "batches": [
+    {
+      "batch_idx": 0,
+      "total": 3,
+      "success": 0,
+      "timeout": 0,
+      "error": 3,
+      "start_time": "2025-09-20T21:36:45.421056",
+      "end_time": "2025-09-20T21:36:45.434759"
+    }
+  ],
+  "end_time": "2025-09-20T21:36:45.435430"
+}

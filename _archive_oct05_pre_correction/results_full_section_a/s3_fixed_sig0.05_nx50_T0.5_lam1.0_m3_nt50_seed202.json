@@ -1,0 +1,140 @@
+{
+  "config": {
+    "s": 3,
+    "sensor_positions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "placement_type": "fixed",
+    "sigma": 0.05,
+    "n_x": 50,
+    "T": 0.5,
+    "lambda": 1.0,
+    "c": 1.0,
+    "m": 3,
+    "n_t": 50,
+    "seed": 202,
+    "delta": 0.05,
+    "alpha": 0.001,
+    "M": 2000,
+    "R": 100,
+    "n": 150,
+    "Delta_x": 0.02,
+    "Delta_t": 0.01020408163265306,
+    "mcmc_n_steps": 10000,
+    "mcmc_n_burn": 2000,
+    "is_baseline": false
+  },
+  "experiment_id": "s3_fixed_sig0.05_nx50_T0.5_lam1.0_m3_nt50_seed202",
+  "reproducibility": {
+    "seed": 202,
+    "data_hash": "b462671e82cbcd1b7196a1623d20651df5d902d358675adbfcfa74ed85ac7fc9",
+    "experiment_id": "exp_20250917_141824",
+    "rng_usage": {
+      "data": 1,
+      "prior": 1,
+      "mcmc": 1
+    }
+  },
+  "dataset": {
+    "kappa_star": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "sigma": 0.05,
+    "n": 150,
+    "spatial_mesh": 50,
+    "temporal_mesh": 50,
+    "time_horizon": 0.5
+  },
+  "mcmc": {
+    "n_steps": 10000,
+    "n_burn": 2000,
+    "acceptance_rate": 0.0007,
+    "ess": [
+      800,
+      800,
+      800
+    ],
+    "converged": false,
+    "n_forward_evals": 8000
+  },
+  "posterior_summary": {
+    "mean": [
+      0.9447613839156321,
+      1.1088321982369838,
+      0.9004667213958396
+    ],
+    "std": [
+      9.314771176605063e-14,
+      7.327471962526033e-14,
+      1.0591527654923993e-13
+    ],
+    "quantiles": {
+      "2.5%": [
+        0.944761383915539,
+        1.1088321982369105,
+        0.9004667213959455
+      ],
+      "50%": [
+        0.944761383915539,
+        1.1088321982369105,
+        0.9004667213959455
+      ],
+      "97.5%": [
+        0.944761383915539,
+        1.1088321982369105,
+        0.9004667213959455
+      ]
+    }
+  },
+  "certificate": {
+    "B_lambda": 0.3159002215437808,
+    "L_hat": 0.13033044072438565,
+    "KL": 27.775467122909266,
+    "eta_h": 0.0004,
+    "lambda": 1.0,
+    "c": 1.0,
+    "components": {
+      "empirical_term": 0.13033044072438565,
+      "kl_term": 0.1851697808193951,
+      "discretization_term": 0.0004
+    },
+    "partition_function": {
+      "Z_hat": 0.00029736789007105304,
+      "underline_Z": 0.00026763110106394774,
+      "prior_samples": 2000
+    }
+  },
+  "true_risk": {
+    "L_mc": 0.8937234117519925,
+    "L_mc_std": 0.007574821407510099,
+    "R": 100
+  },
+  "performance": {
+    "total_solver_calls": 0,
+    "timings": {
+      "data_generation": {
+        "total": 9.894371032714844e-05,
+        "mean": 9.894371032714844e-05,
+        "std": 0.0,
+        "count": 1
+      },
+      "mcmc": {
+        "total": 0.07604408264160156,
+        "mean": 0.07604408264160156,
+        "std": 0.0,
+        "count": 1
+      },
+      "certificate": {
+        "total": 0.008227109909057617,
+        "mean": 0.008227109909057617,
+        "std": 0.0,
+        "count": 1
+      }
+    },
+    "memory_peak_mb": {}
+  }
+}

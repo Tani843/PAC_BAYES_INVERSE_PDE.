@@ -1,0 +1,902 @@
+[
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0014231204986572266
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0014278888702392578
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002547025680541992
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002603769302368164
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0030028820037841797
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0021278858184814453
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002105712890625
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0021028518676757812
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0039081573486328125
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0038738250732421875
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam1.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.003873109817504883
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0014100074768066406
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.001415252685546875
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0013971328735351562
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0025250911712646484
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002515077590942383
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002821207046508789
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0021119117736816406
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.002104043960571289
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.01020408163265306,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0020508766174316406
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.003846883773803711
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.004071235656738281
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx50_T0.5_lam2.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 50,
+      "T": 0.5,
+      "lambda": 2.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.005050505050505051,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.003949165344238281
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx100_T0.3_lam0.5_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 100,
+      "T": 0.3,
+      "lambda": 0.5,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.01,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0014522075653076172
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.1_nx100_T0.3_lam0.5_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.1,
+      "n_x": 100,
+      "T": 0.3,
+      "lambda": 0.5,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.01,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "error",
+    "error": "AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/tanishagupta/PAC_BAYES_INVERSE_PDE.-1/run_full_grid_phase2_robust.py\", line 71, in run_single_experiment_with_timeout\n    mcmc_results = sampler.run_adaptive_length(\nTypeError: AdaptiveMetropolisHastingsPhase2.run_adaptive_length() got an unexpected keyword argument 'target_ess'\n",
+    "performance": {
+      "runtime": 0.0014259815216064453
+    }
+  }
+]

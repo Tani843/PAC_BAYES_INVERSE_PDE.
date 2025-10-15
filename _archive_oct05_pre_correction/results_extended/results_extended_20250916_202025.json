@@ -1,0 +1,57 @@
+[
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 50,
+      "n_t": 25,
+      "T": 0.5,
+      "lambda": 0.5,
+      "c": 0.5,
+      "m": 3,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 200,
+      "R": 10,
+      "n": 75,
+      "Delta_x": 0.02,
+      "Delta_t": 0.020833333333333332,
+      "mcmc_n_steps": 2000,
+      "mcmc_n_burn": 500,
+      "is_baseline": false,
+      "is_extended": true
+    },
+    "reproducibility": {
+      "seed": 101,
+      "data_hash": "4a78975ce7306b0c8b7dae90101b4d00ffb7120d5cc462cf9e2fa684541b671f",
+      "experiment_id": "exp_20250916_202012",
+      "rng_usage": {
+        "data": 1,
+        "prior": 1,
+        "mcmc": 1
+      }
+    },
+    "dataset": {
+      "kappa_star": [
+        1.0,
+        1.5,
+        2.0
+      ],
+      "sigma": 0.1,
+      "n": 75
+    },
+    "mcmc": {
+      "acceptance_rate": 0.187,
+      "ess": [
+        400,
+        400,
+        400
+      ],
+      "converged": 

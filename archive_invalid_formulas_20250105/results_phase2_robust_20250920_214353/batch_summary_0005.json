@@ -1,0 +1,9 @@
+{
+  "batch_idx": 5,
+  "total": 25,
+  "success": 0,
+  "timeout": 0,
+  "error": 25,
+  "start_time": "2025-09-20T21:43:54.141204",
+  "end_time": "2025-09-20T21:43:54.342843"
+}

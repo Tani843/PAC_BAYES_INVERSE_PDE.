@@ -1,0 +1,252 @@
+[
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 5,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 5,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.05,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 5,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 3,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  },
+  {
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "placement_type": "fixed",
+      "sigma": 0.1,
+      "n_x": 100,
+      "n_t": 50,
+      "T": 0.5,
+      "m": 5,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "c": 1.0,
+      "n": 150
+    },
+    "status": "error",
+    "error": "'numpy.ndarray' object is not callable"
+  }
+]

@@ -1,0 +1,4 @@
+c,n_experiments,validity_rate,convergence_rate,mean_L_hat,mean_B_lambda,mean_gap,median_gap,mean_ess,mean_acceptance
+0.5,36,1.0,0.5278,0.8972,0.9612,0.064,0.0539,163.1456,0.7409
+1.0,36,1.0,0.5278,0.8583,0.9368,0.0785,0.0632,153.4889,0.7231
+2.0,36,1.0,0.5833,0.8076,0.906,0.0983,0.0914,161.5477,0.711

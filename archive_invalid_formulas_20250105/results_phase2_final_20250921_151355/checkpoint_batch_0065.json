@@ -1,0 +1,874 @@
+[
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        2.3073951969585615,
+        2.4973365540384895,
+        0.5996597926733394
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.47585,
+      "ess_min": 502.42182281765514,
+      "ess_mean": 727.1664412503841,
+      "ess_per_coord": [
+        502.42182281765514,
+        651.7260124784833,
+        1027.3514884550136
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.05024218228176552,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 114.75152139825359,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 114.77169294674395,
+      "components": {
+        "empirical_term": 114.75152139825359,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        3.1741987060812415,
+        3.471866728641832,
+        1.3358528973903947
+      ],
+      "std": [
+        0.09407565574847694,
+        0.06307853326693977,
+        0.07528859148396852
+      ]
+    },
+    "performance": {
+      "runtime": 24.95419478416443,
+      "test_log_posterior": -457.29660263928434
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        1.2847216299636934,
+        1.4241900884838463,
+        3.920764034845088
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.48365,
+      "ess_min": 648.8592313175614,
+      "ess_mean": 806.0400529151781,
+      "ess_per_coord": [
+        648.8592313175614,
+        766.3456703833446,
+        1002.9152570446284
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.06488592313175613,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 89.36491142764082,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 89.38508297613119,
+      "components": {
+        "empirical_term": 89.36491142764082,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        1.7452523743420385,
+        2.9829956739049486,
+        4.349310580310034
+      ],
+      "std": [
+        0.08613446568057767,
+        0.05751784610827391,
+        0.12088177093426518
+      ]
+    },
+    "performance": {
+      "runtime": 24.872921228408813,
+      "test_log_posterior": -694.3487919385269
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        3.12551948199565,
+        1.4836227496566199,
+        2.427779995862962
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.51685,
+      "ess_min": 620.92951907022,
+      "ess_mean": 747.3061187985477,
+      "ess_per_coord": [
+        620.92951907022,
+        700.8445084929896,
+        920.1443288324334
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.06209295190702199,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 97.69001770030212,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 97.71018924879249,
+      "components": {
+        "empirical_term": 97.69001770030212,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        3.5828567381684517,
+        3.171257455782603,
+        2.866229083069311
+      ],
+      "std": [
+        0.10326279626011513,
+        0.05736997655324244,
+        0.08872264174391449
+      ]
+    },
+    "performance": {
+      "runtime": 24.998442888259888,
+      "test_log_posterior": -780.1472700128298
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.0030303030303030303,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        2.3073951969585615,
+        2.4973365540384895,
+        0.5996597926733394
+      ],
+      "n_observations": 300
+    },
+    "mcmc": {
+      "acceptance_rate": 0.5640499999999999,
+      "ess_min": 570.6830984051685,
+      "ess_mean": 623.363551787813,
+      "ess_per_coord": [
+        595.4804523676381,
+        570.6830984051685,
+        703.9271045906323
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.05706830984051685,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 224.5683624850274,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.00998577424517997,
+      "B_lambda": 224.57854825927257,
+      "components": {
+        "empirical_term": 224.5683624850274,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.00998577424517997
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        3.19485923185067,
+        3.4444962353217856,
+        1.2895245117738094
+      ],
+      "std": [
+        0.06980647510950203,
+        0.03668450129676655,
+        0.05126142025768839
+      ]
+    },
+    "performance": {
+      "runtime": 48.741738080978394,
+      "test_log_posterior": -865.9606078887538
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.0030303030303030303,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        1.2847216299636934,
+        1.4241900884838463,
+        3.920764034845088
+      ],
+      "n_observations": 300
+    },
+    "mcmc": {
+      "acceptance_rate": 0.5153,
+      "ess_min": 476.97845537406533,
+      "ess_mean": 671.4201271980954,
+      "ess_per_coord": [
+        476.97845537406533,
+        747.0040368444849,
+        790.277889375736
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.04769784553740653,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 176.2712573792626,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.00998577424517997,
+      "B_lambda": 176.28144315350778,
+      "components": {
+        "empirical_term": 176.2712573792626,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.00998577424517997
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        1.7325413123179814,
+        2.931457936875501,
+        4.232225663391028
+      ],
+      "std": [
+        0.05094685460389424,
+        0.03815904444999801,
+        0.08281916491309307
+      ]
+    },
+    "performance": {
+      "runtime": 47.371159076690674,
+      "test_log_posterior": -1312.923568334543
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m3_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 3,
+      "n_t": 100,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.0030303030303030303,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        3.12551948199565,
+        1.4836227496566199,
+        2.427779995862962
+      ],
+      "n_observations": 300
+    },
+    "mcmc": {
+      "acceptance_rate": 0.5194,
+      "ess_min": 578.6680035094215,
+      "ess_mean": 725.7547176192844,
+      "ess_per_coord": [
+        736.3088698164221,
+        578.6680035094215,
+        862.2872795320098
+      ],
+      "n_chunks": 2,
+      "total_steps": 10000,
+      "converged": true,
+      "efficiency": 0.05786680035094215,
+      "n_forward_evals": 10000
+    },
+    "certificate": {
+      "L_hat": 221.66606883553683,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.00998577424517997,
+      "B_lambda": 221.676254609782,
+      "components": {
+        "empirical_term": 221.66606883553683,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.00998577424517997
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        3.575725651156895,
+        3.14244977381017,
+        2.878728140950135
+      ],
+      "std": [
+        0.07834491896188807,
+        0.0404050924863349,
+        0.06932003197946515
+      ]
+    },
+    "performance": {
+      "runtime": 47.73738980293274,
+      "test_log_posterior": -1547.944405344629
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        2.3073951969585615,
+        2.4973365540384895,
+        0.5996597926733394,
+        1.1003257967878608,
+        2.898469435940594
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.37455,
+      "ess_min": 89.25237779773822,
+      "ess_mean": 167.71235617335057,
+      "ess_per_coord": [
+        196.85033535856772,
+        187.5803380756334,
+        267.84831997962675,
+        97.03040965518677,
+        89.25237779773822
+      ],
+      "n_chunks": 8,
+      "total_steps": 40000,
+      "converged": false,
+      "efficiency": 0.0022313094449434557,
+      "n_forward_evals": 40000
+    },
+    "certificate": {
+      "L_hat": 72.17021149717488,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 72.19038304566524,
+      "components": {
+        "empirical_term": 72.17021149717488,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        1.9342118224733762,
+        2.53885673336528,
+        2.4289850418972136,
+        2.498875803988939,
+        1.3330121780623336
+      ],
+      "std": [
+        0.3110690730481266,
+        0.3382822488436118,
+        0.16013794103963017,
+        0.24168970200211473,
+        0.18578736268665255
+      ]
+    },
+    "performance": {
+      "runtime": 239.19143390655518,
+      "test_log_posterior": -1584.5466270152015
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m5_seed202",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 202,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        1.2847216299636934,
+        1.4241900884838463,
+        3.920764034845088,
+        3.9752807832159958,
+        3.9824723567684557
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.45055555555555554,
+      "ess_min": 523.780332601591,
+      "ess_mean": 841.1695842818265,
+      "ess_per_coord": [
+        1007.6883556339188,
+        598.093736684409,
+        806.6258549392911,
+        523.780332601591,
+        1269.6596415499223
+      ],
+      "n_chunks": 3,
+      "total_steps": 15000,
+      "converged": true,
+      "efficiency": 0.034918688840106064,
+      "n_forward_evals": 15000
+    },
+    "certificate": {
+      "L_hat": 586.1873742198774,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 586.2075457683677,
+      "components": {
+        "empirical_term": 586.1873742198774,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        0.410797603435203,
+        4.568091241523399,
+        4.991954703762491,
+        4.976341090753305,
+        3.7604179390055466
+      ],
+      "std": [
+        0.06112365887364906,
+        0.100593865136212,
+        0.007708288587148728,
+        0.02455046369016974,
+        0.11688208434435868
+      ]
+    },
+    "performance": {
+      "runtime": 84.8130431175232,
+      "test_log_posterior": -2154.169120060765
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m5_seed303",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 50,
+      "seed": 303,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 150,
+      "Delta_x": 0.02,
+      "Delta_t": 0.006122448979591836,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        3.12551948199565,
+        1.4836227496566199,
+        2.427779995862962,
+        3.3381215081208255,
+        2.6741059937440994
+      ],
+      "n_observations": 150
+    },
+    "mcmc": {
+      "acceptance_rate": 0.5032533333333333,
+      "ess_min": 533.1823037359164,
+      "ess_mean": 623.0010466952829,
+      "ess_per_coord": [
+        768.1095076963903,
+        533.1823037359164,
+        699.2638145240111,
+        551.908602271735,
+        562.5410052483618
+      ],
+      "n_chunks": 5,
+      "total_steps": 25000,
+      "converged": true,
+      "efficiency": 0.02132729214943666,
+      "n_forward_evals": 25000
+    },
+    "certificate": {
+      "L_hat": 348.9375585834655,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.01997154849035994,
+      "B_lambda": 348.9577301319558,
+      "components": {
+        "empirical_term": 348.9375585834655,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.01997154849035994
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        1.5434246547542174,
+        3.7375652808569795,
+        4.430459101715352,
+        4.066595037386895,
+        2.341797362061428
+      ],
+      "std": [
+        0.10691853949843563,
+        0.12672951085389855,
+        0.07850267878910822,
+        0.1313410573285602,
+        0.11807984890198545
+      ]
+    },
+    "performance": {
+      "runtime": 142.4590802192688,
+      "test_log_posterior": -2044.0237508266148
+    }
+  },
+  {
+    "experiment_id": "s3_sigma0.2_nx50_T0.3_lam1.0_m5_seed101",
+    "config": {
+      "s": 3,
+      "sensor_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "placement_type": "shifted",
+      "sigma": 0.2,
+      "n_x": 50,
+      "T": 0.3,
+      "lambda": 1.0,
+      "c": 1.0,
+      "m": 5,
+      "n_t": 100,
+      "seed": 101,
+      "delta": 0.05,
+      "alpha": 0.001,
+      "M": 2000,
+      "R": 100,
+      "n": 300,
+      "Delta_x": 0.02,
+      "Delta_t": 0.0030303030303030303,
+      "mcmc_n_steps": 10000,
+      "mcmc_n_burn": 2000,
+      "is_baseline": false
+    },
+    "status": "success",
+    "dataset": {
+      "kappa_star": [
+        2.3073951969585615,
+        2.4973365540384895,
+        0.5996597926733394,
+        1.1003257967878608,
+        2.898469435940594
+      ],
+      "n_observations": 300
+    },
+    "mcmc": {
+      "acceptance_rate": 0.4345666666666667,
+      "ess_min": 127.15238882827667,
+      "ess_mean": 193.93769839579343,
+      "ess_per_coord": [
+        238.5902243079001,
+        239.98194172587094,
+        234.91189918330372,
+        127.15238882827667,
+        129.05203793361565
+      ],
+      "n_chunks": 8,
+      "total_steps": 40000,
+      "converged": false,
+      "efficiency": 0.0031788097207069168,
+      "n_forward_evals": 40000
+    },
+    "certificate": {
+      "L_hat": 163.526179144886,
+      "KL": 0.0,
+      "eta_h": 0.0002,
+      "delta_term": 0.00998577424517997,
+      "B_lambda": 163.53636491913116,
+      "components": {
+        "empirical_term": 163.526179144886,
+        "kl_term": 0.0,
+        "discretization_term": 0.0002,
+        "confidence_term": 0.00998577424517997
+      },
+      "valid": true
+    },
+    "posterior_summary": {
+      "mean": [
+        2.1085083555194912,
+        2.377873201933756,
+        2.421443976227881,
+        2.441207445359771,
+        1.298068023224648
+      ],
+      "std": [
+        0.21659996313211516,
+        0.22882997046601,
+        0.09305688196326808,
+        0.18563455002912374,
+        0.1455803842394746
+      ]
+    },
+    "performance": {
+      "runtime": 441.54228472709656,
+      "test_log_posterior": -2998.230148598462
+    }
+  }
+]

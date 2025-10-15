@@ -1,0 +1,26 @@
+Delta_t: 0.020833333333333332
+Delta_x: 0.02
+M: 200
+R: 10
+T: 0.5
+alpha: 0.001
+c: 1.0
+delta: 0.05
+is_baseline: false
+lambda: 0.5
+m: 5
+mcmc_n_burn: 500
+mcmc_n_steps: 2000
+n: 125
+n_t: 25
+n_x: 50
+placement_type: fixed
+s: 5
+seed: 202
+sensor_positions:
+- 0.15
+- 0.3
+- 0.5
+- 0.7
+- 0.85
+sigma: 0.1

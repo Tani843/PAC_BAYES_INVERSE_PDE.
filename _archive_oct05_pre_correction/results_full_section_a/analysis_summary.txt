@@ -1,0 +1,8 @@
+PAC-Bayes Inverse PDE - Section A Results Analysis
+=======================================================
+
+Total experiments: 1728
+Certificate validity rate: 0.014
+Best temperature parameter: λ = 2.0
+Convergence rate: 0.000
+Mean certificate gap: -0.7604

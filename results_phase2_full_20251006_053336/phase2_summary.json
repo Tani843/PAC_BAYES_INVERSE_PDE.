@@ -1,0 +1,17 @@
+{
+  "total_experiments": 1728,
+  "completed": 1728,
+  "errors": 0,
+  "success_rate": 1.0,
+  "convergence_rate": 0.4201388888888889,
+  "validity_rate": 1.0,
+  "performance": {
+    "mean_acceptance": 0.6274364261240815,
+    "std_acceptance": 0.18050228120828826,
+    "mean_ess": 131.0153133005828,
+    "std_ess": 89.01806259763943,
+    "mean_runtime": 317.77041661918713,
+    "total_runtime": 549107.2799179554
+  },
+  "timestamp": "20251006_053336"
+}

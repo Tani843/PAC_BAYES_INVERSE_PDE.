@@ -1,0 +1,624 @@
+{
+  "total_experiments": 1678,
+  "start_idx": 50,
+  "end_idx": 1728,
+  "batch_size": 25,
+  "timeout_sec": 900,
+  "max_steps_hard": 25000,
+  "start_time": "2025-09-20T03:18:31.796891",
+  "batches": [
+    {
+      "batch_idx": 0,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:31.796918",
+      "end_time": "2025-09-20T03:18:31.885796"
+    },
+    {
+      "batch_idx": 1,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:31.887686",
+      "end_time": "2025-09-20T03:18:31.979638"
+    },
+    {
+      "batch_idx": 2,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:31.981783",
+      "end_time": "2025-09-20T03:18:32.067409"
+    },
+    {
+      "batch_idx": 3,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.069012",
+      "end_time": "2025-09-20T03:18:32.145905"
+    },
+    {
+      "batch_idx": 4,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.147572",
+      "end_time": "2025-09-20T03:18:32.218619"
+    },
+    {
+      "batch_idx": 5,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.220343",
+      "end_time": "2025-09-20T03:18:32.285851"
+    },
+    {
+      "batch_idx": 6,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.287377",
+      "end_time": "2025-09-20T03:18:32.354220"
+    },
+    {
+      "batch_idx": 7,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.355751",
+      "end_time": "2025-09-20T03:18:32.424597"
+    },
+    {
+      "batch_idx": 8,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.426268",
+      "end_time": "2025-09-20T03:18:32.501524"
+    },
+    {
+      "batch_idx": 9,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.503115",
+      "end_time": "2025-09-20T03:18:32.578749"
+    },
+    {
+      "batch_idx": 10,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.580446",
+      "end_time": "2025-09-20T03:18:32.649710"
+    },
+    {
+      "batch_idx": 11,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.651354",
+      "end_time": "2025-09-20T03:18:32.716921"
+    },
+    {
+      "batch_idx": 12,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.718520",
+      "end_time": "2025-09-20T03:18:32.786240"
+    },
+    {
+      "batch_idx": 13,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.788292",
+      "end_time": "2025-09-20T03:18:32.854898"
+    },
+    {
+      "batch_idx": 14,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.856475",
+      "end_time": "2025-09-20T03:18:32.923257"
+    },
+    {
+      "batch_idx": 15,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.924867",
+      "end_time": "2025-09-20T03:18:32.990686"
+    },
+    {
+      "batch_idx": 16,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:32.992607",
+      "end_time": "2025-09-20T03:18:33.058493"
+    },
+    {
+      "batch_idx": 17,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.060082",
+      "end_time": "2025-09-20T03:18:33.126437"
+    },
+    {
+      "batch_idx": 18,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.128024",
+      "end_time": "2025-09-20T03:18:33.193724"
+    },
+    {
+      "batch_idx": 19,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.195591",
+      "end_time": "2025-09-20T03:18:33.262622"
+    },
+    {
+      "batch_idx": 20,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.264298",
+      "end_time": "2025-09-20T03:18:33.331950"
+    },
+    {
+      "batch_idx": 21,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.333656",
+      "end_time": "2025-09-20T03:18:33.400887"
+    },
+    {
+      "batch_idx": 22,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.402561",
+      "end_time": "2025-09-20T03:18:33.471382"
+    },
+    {
+      "batch_idx": 23,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.473313",
+      "end_time": "2025-09-20T03:18:33.541152"
+    },
+    {
+      "batch_idx": 24,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.542908",
+      "end_time": "2025-09-20T03:18:33.610866"
+    },
+    {
+      "batch_idx": 25,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.612716",
+      "end_time": "2025-09-20T03:18:33.679020"
+    },
+    {
+      "batch_idx": 26,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.681183",
+      "end_time": "2025-09-20T03:18:33.747125"
+    },
+    {
+      "batch_idx": 27,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.748979",
+      "end_time": "2025-09-20T03:18:33.815173"
+    },
+    {
+      "batch_idx": 28,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.816945",
+      "end_time": "2025-09-20T03:18:33.882461"
+    },
+    {
+      "batch_idx": 29,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.884483",
+      "end_time": "2025-09-20T03:18:33.950914"
+    },
+    {
+      "batch_idx": 30,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:33.952803",
+      "end_time": "2025-09-20T03:18:34.024197"
+    },
+    {
+      "batch_idx": 31,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.026164",
+      "end_time": "2025-09-20T03:18:34.097902"
+    },
+    {
+      "batch_idx": 32,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.099791",
+      "end_time": "2025-09-20T03:18:34.187196"
+    },
+    {
+      "batch_idx": 33,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.189023",
+      "end_time": "2025-09-20T03:18:34.298201"
+    },
+    {
+      "batch_idx": 34,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.300137",
+      "end_time": "2025-09-20T03:18:34.405238"
+    },
+    {
+      "batch_idx": 35,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.407105",
+      "end_time": "2025-09-20T03:18:34.605066"
+    },
+    {
+      "batch_idx": 36,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.610335",
+      "end_time": "2025-09-20T03:18:34.719523"
+    },
+    {
+      "batch_idx": 37,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.721486",
+      "end_time": "2025-09-20T03:18:34.829287"
+    },
+    {
+      "batch_idx": 38,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.831285",
+      "end_time": "2025-09-20T03:18:34.940263"
+    },
+    {
+      "batch_idx": 39,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:34.942346",
+      "end_time": "2025-09-20T03:18:35.052772"
+    },
+    {
+      "batch_idx": 40,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.054690",
+      "end_time": "2025-09-20T03:18:35.162199"
+    },
+    {
+      "batch_idx": 41,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.165599",
+      "end_time": "2025-09-20T03:18:35.275250"
+    },
+    {
+      "batch_idx": 42,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.277217",
+      "end_time": "2025-09-20T03:18:35.385120"
+    },
+    {
+      "batch_idx": 43,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.387105",
+      "end_time": "2025-09-20T03:18:35.494604"
+    },
+    {
+      "batch_idx": 44,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.496629",
+      "end_time": "2025-09-20T03:18:35.604534"
+    },
+    {
+      "batch_idx": 45,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.606686",
+      "end_time": "2025-09-20T03:18:35.716630"
+    },
+    {
+      "batch_idx": 46,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.718843",
+      "end_time": "2025-09-20T03:18:35.823091"
+    },
+    {
+      "batch_idx": 47,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.825500",
+      "end_time": "2025-09-20T03:18:35.929532"
+    },
+    {
+      "batch_idx": 48,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:35.932027",
+      "end_time": "2025-09-20T03:18:36.038000"
+    },
+    {
+      "batch_idx": 49,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.040048",
+      "end_time": "2025-09-20T03:18:36.147369"
+    },
+    {
+      "batch_idx": 50,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.149686",
+      "end_time": "2025-09-20T03:18:36.263311"
+    },
+    {
+      "batch_idx": 51,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.266627",
+      "end_time": "2025-09-20T03:18:36.377037"
+    },
+    {
+      "batch_idx": 52,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.379262",
+      "end_time": "2025-09-20T03:18:36.485059"
+    },
+    {
+      "batch_idx": 53,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.487200",
+      "end_time": "2025-09-20T03:18:36.589433"
+    },
+    {
+      "batch_idx": 54,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.591449",
+      "end_time": "2025-09-20T03:18:36.698413"
+    },
+    {
+      "batch_idx": 55,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.700502",
+      "end_time": "2025-09-20T03:18:36.809997"
+    },
+    {
+      "batch_idx": 56,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.812096",
+      "end_time": "2025-09-20T03:18:36.920369"
+    },
+    {
+      "batch_idx": 57,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:36.922489",
+      "end_time": "2025-09-20T03:18:37.029402"
+    },
+    {
+      "batch_idx": 58,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.031531",
+      "end_time": "2025-09-20T03:18:37.149459"
+    },
+    {
+      "batch_idx": 59,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.151611",
+      "end_time": "2025-09-20T03:18:37.259556"
+    },
+    {
+      "batch_idx": 60,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.261840",
+      "end_time": "2025-09-20T03:18:37.364829"
+    },
+    {
+      "batch_idx": 61,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.367080",
+      "end_time": "2025-09-20T03:18:37.473092"
+    },
+    {
+      "batch_idx": 62,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.475482",
+      "end_time": "2025-09-20T03:18:37.579826"
+    },
+    {
+      "batch_idx": 63,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.582076",
+      "end_time": "2025-09-20T03:18:37.687872"
+    },
+    {
+      "batch_idx": 64,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.690049",
+      "end_time": "2025-09-20T03:18:37.798106"
+    },
+    {
+      "batch_idx": 65,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.800817",
+      "end_time": "2025-09-20T03:18:37.907558"
+    },
+    {
+      "batch_idx": 66,
+      "total": 25,
+      "success": 0,
+      "timeout": 0,
+      "error": 25,
+      "start_time": "2025-09-20T03:18:37.909707",
+      "end_time": "2025-09-20T03:18:38.014303"
+    },
+    {
+      "batch_idx": 67,
+      "total": 3,
+      "success": 0,
+      "timeout": 0,
+      "error": 3,
+      "start_time": "2025-09-20T03:18:38.016511",
+      "end_time": "2025-09-20T03:18:38.035609"
+    }
+  ],
+  "end_time": "2025-09-20T03:18:38.037018"
+}

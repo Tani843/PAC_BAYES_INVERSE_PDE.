@@ -1,0 +1,57 @@
+{
+  "total_experiments": 50,
+  "start_idx": 50,
+  "end_idx": 100,
+  "batch_size": 10,
+  "timeout_sec": 600,
+  "max_steps_hard": 25000,
+  "start_time": "2025-09-20T03:20:18.780726",
+  "batches": [
+    {
+      "batch_idx": 0,
+      "total": 10,
+      "success": 0,
+      "timeout": 0,
+      "error": 10,
+      "start_time": "2025-09-20T03:20:18.780759",
+      "end_time": "2025-09-20T03:20:18.867300"
+    },
+    {
+      "batch_idx": 1,
+      "total": 10,
+      "success": 0,
+      "timeout": 0,
+      "error": 10,
+      "start_time": "2025-09-20T03:20:18.870278",
+      "end_time": "2025-09-20T03:20:18.938700"
+    },
+    {
+      "batch_idx": 2,
+      "total": 10,
+      "success": 0,
+      "timeout": 0,
+      "error": 10,
+      "start_time": "2025-09-20T03:20:18.941392",
+      "end_time": "2025-09-20T03:20:19.002285"
+    },
+    {
+      "batch_idx": 3,
+      "total": 10,
+      "success": 0,
+      "timeout": 0,
+      "error": 10,
+      "start_time": "2025-09-20T03:20:19.004200",
+      "end_time": "2025-09-20T03:20:19.055327"
+    },
+    {
+      "batch_idx": 4,
+      "total": 10,
+      "success": 0,
+      "timeout": 0,
+      "error": 10,
+      "start_time": "2025-09-20T03:20:19.056858",
+      "end_time": "2025-09-20T03:20:19.097176"
+    }
+  ],
+  "end_time": "2025-09-20T03:20:19.098563"
+}

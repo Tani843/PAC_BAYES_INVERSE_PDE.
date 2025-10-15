@@ -1,0 +1,131 @@
+{
+  "config": {
+    "s": 3,
+    "sensor_positions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "placement_type": "fixed",
+    "sigma": 0.1,
+    "n_x": 100,
+    "n_t": 50,
+    "T": 0.5,
+    "lambda": 1.0,
+    "c": 1.0,
+    "m": 3,
+    "seed": 303,
+    "delta": 0.05,
+    "alpha": 0.001,
+    "M": 200,
+    "R": 10,
+    "n": 150,
+    "Delta_x": 0.01,
+    "Delta_t": 0.01020408163265306,
+    "mcmc_n_steps": 2000,
+    "mcmc_n_burn": 500,
+    "is_baseline": false,
+    "is_extended": true
+  },
+  "reproducibility": {
+    "seed": 303,
+    "data_hash": "5012f51be9a81fc3b8ba3b343ba285d6fbacf3de6f1bb69bb6f014de23e167ed",
+    "experiment_id": "exp_20250916_202017",
+    "rng_usage": {
+      "data": 1,
+      "prior": 1,
+      "mcmc": 1
+    }
+  },
+  "dataset": {
+    "kappa_star": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "sigma": 0.1,
+    "n": 150
+  },
+  "mcmc": {
+    "acceptance_rate": 0.004,
+    "ess": [
+      400,
+      400,
+      400
+    ],
+    "converged": false,
+    "n_forward_evals": 1500
+  },
+  "posterior_summary": {
+    "mean": [
+      1.053775300308425,
+      0.8203635821873404,
+      0.9607348380610766
+    ],
+    "std": [
+      0.030308988180445966,
+      0.08690770713123973,
+      0.0327694564160739
+    ],
+    "quantiles": {
+      "2.5%": [
+        1.0108174763917082,
+        0.7287010416461452,
+        0.9185563811480395
+      ],
+      "50%": [
+        1.067469381085462,
+        0.8975095933600492,
+        0.9545702923492235
+      ],
+      "97.5%": [
+        1.077890069165126,
+        0.9108191450584608,
+        0.9926544627158824
+      ]
+    }
+  },
+  "certificate": {
+    "B_lambda": 0.5360826450993152,
+    "L_hat": 0.2155650030678536,
+    "KL": 48.06264630471925,
+    "eta_h": 0.0001,
+    "components": {
+      "empirical_term": 0.2155650030678536,
+      "kl_term": 0.32041764203146167,
+      "discretization_term": 0.0001
+    },
+    "Z_hat": 1.6414177040084646e-07,
+    "underline_Z": 1.477275933607618e-07,
+    "c_scaling_factor": 1.0
+  },
+  "true_risk": {
+    "L_mc": 1.1179496854638593,
+    "L_mc_std": 0.02355023296138837,
+    "R": 10
+  },
+  "performance": {
+    "total_solver_calls": 0,
+    "timings": {
+      "data_generation": {
+        "total": 8.58306884765625e-05,
+        "mean": 8.58306884765625e-05,
+        "std": 0.0,
+        "count": 1
+      },
+      "mcmc": {
+        "total": 0.015229225158691406,
+        "mean": 0.015229225158691406,
+        "std": 0.0,
+        "count": 1
+      },
+      "certificate": {
+        "total": 0.000885009765625,
+        "mean": 0.000885009765625,
+        "std": 0.0,
+        "count": 1
+      }
+    },
+    "memory_peak_mb": {}
+  }
+}
