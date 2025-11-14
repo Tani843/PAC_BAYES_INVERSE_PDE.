@@ -1,5 +1,6 @@
 # PAC-Bayes Certificates for Bayesian Inverse Problems: A Case Study on the Heat Equation
-
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Overview
 
 This repository implements PAC-Bayes certified uncertainty quantification for Bayesian inverse problems, specifically applied to the one-dimensional heat equation. The code provides finite-sample generalization guarantees for inferring spatially-varying thermal conductivity κ(x) from sparse and noisy sensor measurements.
