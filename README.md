@@ -171,4 +171,4 @@ MIT License - see LICENSE file for details
 
 ## Contact
 
-For questions or issues, please open a GitHub issue or contact [your email]
+For questions or issues, please open a GitHub issue or contact: tanishagupta008@gmail.com
